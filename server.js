@@ -24,7 +24,7 @@ app.put('/artists/:id', artistsController.update);
 
 app.delete('/artists/:id', artistsController.delete);
 
-db.connect('mongodb://localhost:27017/myapi', function(err) {
+db.connect('mongodb://localhost:27017/test', function(err) {
 	if (err) {
 		return console.log(err);
 	}
